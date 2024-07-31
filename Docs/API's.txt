@@ -1,0 +1,33 @@
+1. API - http://127.0.0.1:5000/create_database
+Request:
+{
+    "host": "localhost",
+    "user":"root",
+    "password": "M18ara10@"
+}
+Response:
+[
+    true,
+    {
+        "message": "DB created successfully",
+        "status": "success"
+    }
+]
+
+
+2. API - http://127.0.0.1:5000/create_tables
+Request:
+{
+    "host": "localhost",
+    "user":"root",
+    "password": "M18ara10@",
+    "database": "webscraper"
+}
+Response:
+[
+    true,
+    {
+        "message": "Tables created successfully",
+        "status": "success"
+    }
+]
